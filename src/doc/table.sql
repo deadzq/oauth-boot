@@ -1,4 +1,4 @@
-use boot;
+use oauth-boot;
 
 -- 创建用户表
 create table user

@@ -32,8 +32,6 @@ public class TokenStoreConfig {
 
     private RedisConnectionFactory factory;
 
-
-
     private DataSource dataSource;
 
     @Autowired(required = false)

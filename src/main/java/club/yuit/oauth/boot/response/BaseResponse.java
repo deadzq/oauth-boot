@@ -1,6 +1,8 @@
 package club.yuit.oauth.boot.response;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author yuit
@@ -8,16 +10,11 @@ import lombok.Data;
  *
  */
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public  class BaseResponse  {
 
     private int status;
     private String msg;
 
-    protected BaseResponse() {
-    }
-
-    protected BaseResponse(int status, String msg) {
-        this.status = status;
-        this.msg = msg;
-    }
 }
